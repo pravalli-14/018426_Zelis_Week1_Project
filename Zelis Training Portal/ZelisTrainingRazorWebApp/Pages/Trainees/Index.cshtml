@@ -1,0 +1,65 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Trainees.IndexModel
+@{
+}
+<h2>Trainee List</h2>
+
+<a class="btn btn-primary" asp-area="" asp-page="/Trainees/Create">Create Trainee</a>
+<br />
+<br />
+<br />
+<!-- Filter by Employee ID -->
+<form method="get" class="mb-3">
+    <div class="d-flex align-items-center">
+        <label for="EmpId" class="me-2">Employee ID:</label>
+        <input type="number" name="EmpId" id="EmpId" class="form-control me-3"
+               placeholder="e.g., 101 to 200" style="width: 250px;" />
+        <button type="submit" class="btn btn-secondary">Apply Filter</button>
+    </div>
+</form>
+
+<!-- Filter by Training ID -->
+<form method="get" class="mb-3">
+    <div class="d-flex align-items-center">
+        <label for="TrainingId" class="me-2">Training ID:</label>
+        <input type="number" name="TrainingId" id="TrainingId" class="form-control me-3"
+               placeholder="e.g., 1 to 100" style="width: 250px;" />
+        <button type="submit" class="btn btn-secondary">Apply Filter</button>
+    </div>
+</form>
+
+<!-- Filter by Status -->
+<form method="get" class="mb-3">
+    <div class="d-flex align-items-center">
+        <label for="Status" class="me-2">Status:</label>
+        <input type="text" name="Status" id="Status" class="form-control me-3"
+               placeholder="e.g., C - Completed or N - Incomplete" style="width: 250px;" />
+        <button type="submit" class="btn btn-secondary">Apply Filter</button>
+    </div>
+</form>
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Training ID</th>
+            <th>Employee ID</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trainee in Model.trainees)
+        {
+            <tr>
+                <td>@trainee.TrainingId</td>
+                <td>@trainee.EmpId</td>
+                <td>@trainee.Status</td>
+                <td>
+                    <a href="/Trainees/Edit/@trainee.TrainingId/@trainee.EmpId">Edit</a>
+                    <a href="/Trainees/Details/@trainee.TrainingId/@trainee.EmpId">Details</a>
+                    <a href="/Trainees/Delete/@trainee.TrainingId/@trainee.EmpId">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Zelis">Back to Zelis Page</a>

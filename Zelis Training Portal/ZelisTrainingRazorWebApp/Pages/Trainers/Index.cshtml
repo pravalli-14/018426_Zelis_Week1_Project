@@ -1,0 +1,48 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Trainers.IndexModel
+@{
+}
+@using ZelisTrainingLibrary.Models;
+<h2> List of Trainers</h2>
+<a class="btn btn-primary" asp-area="" asp-page="/Trainers/Create">Add new trainer</a>
+<br />
+<br />
+<br />
+<!-- TrainerType Filter Form (Text Input) -->
+<form method="get" class="form-inline mb-4">
+    <div class="form-group d-flex align-items-center">
+        <label for="trainerType" class="me-2 mb-0">Enter Trainer Type (I/E):</label>
+        <input type="text" name="trainerType" id="trainerType" class="form-control me-3"
+               value="@Model.TrainerType" placeholder="e.g., I-Internal or E-External" style="width: 250px;" />
+        <button type="submit" class="btn btn-secondary">Apply Filter</button>
+    </div>
+</form>
+
+
+<table border="1" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Trainer Id</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Email</th>
+            <th>Phone No</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Trainer trainer in Model.trainers)
+        {
+            <tr>
+                <td>@trainer.TrainerId</td>
+                <td>@trainer.TrainerName</td>
+                <td>@trainer.TrainerType</td>
+                <td>@trainer.TrainerEmail</td>
+                <td>@trainer.TrainerPhoneNo</td>
+                <td><a href="/Trainers/Details/@trainer.TrainerId">Details</a></td>
+                <td><a href="/Trainers/Edit/@trainer.TrainerId">Edit</a></td>
+                <td><a href="/Trainers/Delete/@trainer.TrainerId">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Zelis">Back to Zelis Page</a>

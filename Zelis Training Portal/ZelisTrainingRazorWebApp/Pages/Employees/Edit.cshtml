@@ -1,0 +1,24 @@
+﻿@page "{empid}"
+@model ZelisTrainingRazorWebApp.Pages.Employees.EditModel
+@{
+}
+<h2>Edit/Update New Employee</h2>
+<form method="post">
+    <label asp-for="employee.EmpId">Employee ID:</label>
+    <input asp-for="employee.EmpId" class="form-control" />
+    <hr />
+    <label asp-for="employee.EmpName">Employee Name:</label>
+    <input asp-for="employee.EmpName" class="form-control" />
+    <hr />
+    <label asp-for="employee.Designation">Designation:</label>
+    <input asp-for="employee.Designation" class="form-control" />
+    <hr />
+    <label asp-for="employee.EmpEmail">Email Id:</label>
+    <input asp-for="employee.EmpEmail" class="form-control" />
+    <hr />
+    <label asp-for="employee.EmpPhoneNo">Phone Number:</label>
+    <input asp-for="employee.EmpPhoneNo" class="form-control" />
+    <hr />
+    <input type="submit" value="Save" />
+</form>
+<a href="/Employees/Index">Back to List</a>

@@ -1,0 +1,21 @@
+﻿@page "{empid}"
+@model ZelisTrainingRazorWebApp.Pages.Technologies.DeleteModel
+@{
+}
+<h2> Delete Technology Details</h2>
+<label asp-for="technology.TechnologyId">Technology Id:</label>
+@Model.technology.TechnologyId
+<br>
+<label asp-for="technology.TechnologyName">Name:</label>
+@Model.technology.TechnologyName
+<br>
+<label asp-for="technology.Level">Level(B/I/A):</label>
+@Model.technology.Level
+<br>
+<label asp-for="technology.Duration">Duration(In days):</label>
+@Model.technology.Duration
+<br />
+<form method="post">
+    <input type="submit" value="Delete" />
+</form>
+<a href="/Technologies/Index">Back to List</a>

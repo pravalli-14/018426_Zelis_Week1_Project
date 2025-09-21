@@ -1,0 +1,47 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Technologies.IndexModel
+@{
+}
+@using ZelisTrainingLibrary.Models;
+<h2> List of Technologies</h2>
+<a class="btn btn-primary" asp-area="" asp-page="/Technologies/Create">Add New Technology</a>
+<br />
+<br />
+<br />
+
+
+<!-- LevelFilter Form (Text Input) -->
+<form method="get" class="form-inline mb-4">
+    <div class="form-group d-flex align-items-center">
+        <label for="level" class="me-2 mb-0">Enter Technology level:</label>
+        <input type="text" name="level" id="level" class="form-control me-3"
+               value="@Model.Level" placeholder="e.g., B- Basic or I-Intermediate or A-Advanced" style="width: 250px;" />
+        <button type="submit" class="btn btn-secondary">Apply Filter</button>
+    </div>
+</form>
+
+<table border="1" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Technology Id</th>
+            <th>Name</th>
+            <th>Level</th>
+            <th>Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Technology technology in Model.technologies)
+        {
+            <tr>
+                <td>@technology.TechnologyId</td>
+                <td>@technology.TechnologyName</td>
+                <td>@technology.Level</td>
+                <td>@technology.Duration</td>
+                <td><a href="/Technologies/Details/@technology.TechnologyId">Details</a></td>
+                <td><a href="/Technologies/Edit/@technology.TechnologyId">Edit</a></td>
+                <td><a href="/Technologies/Delete/@technology.TechnologyId">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+    </table>
+    <a href="/Zelis">Back to Zelis Page</a>

@@ -1,0 +1,24 @@
+﻿@page "{tid}"
+@model ZelisTrainingRazorWebApp.Pages.Trainings.DeleteModel
+@{
+}
+<h2>Delete Training Details</h2>
+<label asp-for="training.TrainingId">Training Id:</label>
+@Model.training.TrainingId
+<br>
+<label asp-for="training.TrainerId">Trainer Id:</label>
+@Model.training.TrainerId
+<br>
+<label asp-for="training.TechnologyId">Technology Id:</label>
+@Model.training.TechnologyId
+<br>
+<label asp-for="training.StartDate">Start Date:</label>
+@Model.training.StartDate
+<br />
+<label asp-for="training.EndDate">End Date:</label>
+@Model.training.EndDate
+<br />
+<form method="post">
+    <input type="submit" value="Delete" />
+</form>
+<a href="/Trainings/Index">Back to List</a>

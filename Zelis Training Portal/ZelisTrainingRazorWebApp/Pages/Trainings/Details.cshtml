@@ -1,0 +1,21 @@
+﻿@page "{trainingId}"
+@model ZelisTrainingRazorWebApp.Pages.Trainings.DetailsModel
+@{
+}
+<h2>Training Details</h2>
+<label asp-for="training.TrainingId">Training Id:</label>
+@Model.training.TrainingId
+<br>
+<label asp-for="training.TrainerId">Trainer Id:</label>
+@Model.training.TrainerId
+<br>
+<label asp-for="training.TechnologyId">Technology Id:</label>
+@Model.training.TechnologyId
+<br>
+<label asp-for="training.StartDate">Start Date:</label>
+@Model.training.StartDate
+<br />
+<label asp-for="training.EndDate">End Date:</label>
+@Model.training.EndDate
+<br />
+<a href="/Trainings/Index">Back to List</a>
