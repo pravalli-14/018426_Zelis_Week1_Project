@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZelisTrainingRazorWebApp
+build_property.RootNamespace = ZelisTrainingRazorWebApp
+build_property.ProjectDir = C:\DotNet\Project-1\Zelis Training Portal\ZelisTrainingRazorWebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\DotNet\Project-1\Zelis Training Portal\ZelisTrainingRazorWebApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Technologies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9naWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Technologies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9naWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Technologies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9naWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Technologies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9naWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Technologies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5vbG9naWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Trainings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Zelis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmVsaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DotNet/Project-1/Zelis Training Portal/ZelisTrainingRazorWebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b7zk4uta4o
